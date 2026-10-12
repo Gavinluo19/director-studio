@@ -1,0 +1,21 @@
+name: Bug report / 故障报告
+description: Report a reproducible problem. Do not include keys, private media, or project databases.
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / 环境
+      description: OS, chip, app version, Python and Node versions
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps, expected and actual result / 复现与结果
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs / 脱敏日志
+      description: Remove credentials, signed URLs, personal paths, transcripts and client material.

@@ -1,0 +1,529 @@
+{
+  "version": 1,
+  "prices": [
+    {
+      "key": "ark:doubao-seedream-5-0-pro",
+      "provider": "ark",
+      "model": "doubao-seedream-5-0-pro",
+      "label": "Seedream 5.0 Pro",
+      "unit": "image",
+      "rates": {
+        "per_image": "0.3",
+        "large_image": "0.6",
+        "reference_image": "0.02",
+        "free_references": "1"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.volcengine.com/docs/82379/1544106?lang=zh",
+      "fetched_at": "2026-09-09T02:24:46.053843+00:00",
+      "notes": "≤261万像素 ¥0.30，超过 ¥0.60；首张参考免费，其余 ¥0.02/张。"
+    },
+    {
+      "key": "ark:doubao-seedream-4-5",
+      "provider": "ark",
+      "model": "doubao-seedream-4-5",
+      "label": "Seedream 4.5",
+      "unit": "image",
+      "rates": {
+        "per_image": "0.25"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.volcengine.com/docs/82379/1544106?lang=zh",
+      "fetched_at": "2026-09-09T02:24:46.053843+00:00",
+      "notes": "官方 ¥0.25/张，参考图输入免费。"
+    },
+    {
+      "key": "ark:doubao-seedream-5-0-lite",
+      "provider": "ark",
+      "model": "doubao-seedream-5-0-lite",
+      "label": "Seedream 5.0 Lite",
+      "unit": "image",
+      "rates": {
+        "per_image": "0.22"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.volcengine.com/docs/82379/1544106?lang=zh",
+      "fetched_at": "2026-09-09T02:24:46.053843+00:00",
+      "notes": "官方 ¥0.22/张，参考图输入免费。"
+    },
+    {
+      "key": "ark:doubao-seedance-2.0-mini",
+      "provider": "ark",
+      "model": "doubao-seedance-2.0-mini",
+      "label": "Seedance 2.0 Mini",
+      "unit": "video_tokens",
+      "rates": {
+        "480": "23",
+        "720": "23"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.volcengine.com/docs/82379/1544106?lang=zh",
+      "fetched_at": "2026-09-09T02:24:46.053843+00:00",
+      "promo_rates": {
+        "480": "9.2",
+        "720": "9.2"
+      },
+      "promo_until": "2026-10-07T14:00:00+08:00",
+      "notes": "仅图片输入、无输入视频。按视频尺寸 × 时长 × 24fps /1024 估算 Token；准确用量以接口为准。"
+    },
+    {
+      "key": "ark:doubao-seedance-2.0-fast",
+      "provider": "ark",
+      "model": "doubao-seedance-2.0-fast",
+      "label": "Seedance 2.0 Fast",
+      "unit": "video_tokens",
+      "rates": {
+        "480": "37",
+        "720": "37"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.volcengine.com/docs/82379/1544106?lang=zh",
+      "fetched_at": "2026-09-09T02:24:46.053843+00:00",
+      "promo_rates": {
+        "480": "27.75",
+        "720": "27.75"
+      },
+      "promo_until": "2026-10-07T14:00:00+08:00"
+    },
+    {
+      "key": "ark:doubao-seedance-2.0",
+      "provider": "ark",
+      "model": "doubao-seedance-2.0",
+      "label": "Seedance 2.0",
+      "unit": "video_tokens",
+      "rates": {
+        "480": "46",
+        "720": "46",
+        "1080": "51"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.volcengine.com/docs/82379/1544106?lang=zh",
+      "fetched_at": "2026-09-09T02:24:46.053843+00:00"
+    },
+    {
+      "key": "ark:doubao-seedance-2.5",
+      "provider": "ark",
+      "model": "doubao-seedance-2.5",
+      "label": "Seedance 2.5",
+      "unit": "video_tokens",
+      "rates": {
+        "480": "70",
+        "720": "70",
+        "1080": "77"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.volcengine.com/docs/82379/1544106?lang=zh",
+      "fetched_at": "2026-09-09T02:24:46.053843+00:00",
+      "promo_rates": {
+        "1080": "55.44"
+      },
+      "promo_until": "2026-09-17T14:00:00+08:00"
+    },
+    {
+      "key": "zhipu:glm-5.3",
+      "provider": "zhipu",
+      "model": "glm-5.3",
+      "label": "GLM-5.3",
+      "unit": "tokens",
+      "rates": {
+        "input": "8",
+        "output": "28",
+        "cached": "2"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.054507+00:00",
+      "promo_rates": {},
+      "promo_until": ""
+    },
+    {
+      "key": "zhipu:glm-5.3-flash",
+      "provider": "zhipu",
+      "model": "glm-5.3-flash",
+      "label": "GLM-5.3-Flash",
+      "unit": "tokens",
+      "rates": {
+        "input": "0.8",
+        "output": "2.8",
+        "cached": "0.23"
+      },
+      "currency": "CNY",
+      "source_url": "https://docs.bigmodel.cn/cn/guide/start/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.054665+00:00",
+      "promo_rates": {
+        "input": "0.4",
+        "output": "1.4",
+        "cached": "0.115"
+      },
+      "promo_until": "2026-09-10T00:00:00+08:00"
+    },
+    {
+      "key": "kimi:kimi-k3",
+      "provider": "kimi",
+      "model": "kimi-k3",
+      "label": "K3",
+      "unit": "tokens",
+      "rates": {
+        "cached": "2.00",
+        "input": "20.00",
+        "output": "100.00"
+      },
+      "currency": "CNY",
+      "source_url": "https://platform.kimi.com/docs/pricing/chat-k3.md",
+      "fetched_at": "2026-09-09T02:24:46.054934+00:00"
+    },
+    {
+      "key": "openai:gpt-6-astra",
+      "provider": "openai",
+      "model": "gpt-6-astra",
+      "label": "gpt-6-astra",
+      "unit": "tokens",
+      "rates": {
+        "input": "10.00",
+        "cached": "1.00",
+        "output": "50.00",
+        "write": "12.50"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055201+00:00",
+      "notes": "OpenAI 官方 Standard API 价格；订阅通道按同型号 Token 单价折算参考价值。",
+      "long_rates": {
+        "input": "20.00",
+        "cached": "2.00",
+        "output": "75.00"
+      }
+    },
+    {
+      "key": "openai:gpt-5.6-sol",
+      "provider": "openai",
+      "model": "gpt-5.6-sol",
+      "label": "gpt-5.6-sol",
+      "unit": "tokens",
+      "rates": {
+        "input": "4.00",
+        "cached": "0.40",
+        "output": "20.00",
+        "write": "5.00"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055251+00:00",
+      "notes": "OpenAI 官方 Standard API 价格；订阅通道按同型号 Token 单价折算参考价值。",
+      "long_rates": {
+        "input": "8.00",
+        "cached": "0.80",
+        "output": "30.00"
+      }
+    },
+    {
+      "key": "openai:gpt-5.6-terra",
+      "provider": "openai",
+      "model": "gpt-5.6-terra",
+      "label": "gpt-5.6-terra",
+      "unit": "tokens",
+      "rates": {
+        "input": "2.00",
+        "cached": "0.20",
+        "output": "12.00",
+        "write": "2.50"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055300+00:00",
+      "notes": "OpenAI 官方 Standard API 价格；订阅通道按同型号 Token 单价折算参考价值。",
+      "long_rates": {
+        "input": "4.00",
+        "cached": "0.40",
+        "output": "18.00"
+      }
+    },
+    {
+      "key": "openai:gpt-5.6-luna",
+      "provider": "openai",
+      "model": "gpt-5.6-luna",
+      "label": "gpt-5.6-luna",
+      "unit": "tokens",
+      "rates": {
+        "input": "0.20",
+        "cached": "0.02",
+        "output": "1.20",
+        "write": "0.25"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055345+00:00",
+      "notes": "OpenAI 官方 Standard API 价格；订阅通道按同型号 Token 单价折算参考价值。",
+      "long_rates": {
+        "input": "0.40",
+        "cached": "0.04",
+        "output": "1.80"
+      }
+    },
+    {
+      "key": "openai:gpt-5.5",
+      "provider": "openai",
+      "model": "gpt-5.5",
+      "label": "gpt-5.5",
+      "unit": "tokens",
+      "rates": {
+        "input": "5.00",
+        "cached": "0.50",
+        "output": "30.00"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055392+00:00",
+      "notes": "OpenAI 官方 Standard API 价格；订阅通道按同型号 Token 单价折算参考价值。",
+      "long_rates": {
+        "input": "10.00",
+        "cached": "1.00",
+        "output": "45.00"
+      }
+    },
+    {
+      "key": "openai:gpt-5.4-mini",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "label": "gpt-5.4-mini",
+      "unit": "tokens",
+      "rates": {
+        "input": "0.75",
+        "cached": "0.075",
+        "output": "4.50"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055446+00:00",
+      "notes": "OpenAI 官方 Standard API 价格；订阅通道按同型号 Token 单价折算参考价值。"
+    },
+    {
+      "key": "openai:gpt-image-2",
+      "provider": "openai",
+      "model": "gpt-image-2",
+      "label": "GPT Image 2",
+      "unit": "image_tokens",
+      "rates": {
+        "input": "5.00",
+        "image_input": "8.00",
+        "image_cached": "2.00",
+        "output": "30.00"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055527+00:00",
+      "notes": "按文字输入、参考图输入和图片输出 Token 分别计费；每张显示的是预算估算，不是固定官方单张价格。"
+    },
+    {
+      "key": "openai:gpt-4o-mini-tts",
+      "provider": "openai",
+      "model": "gpt-4o-mini-tts",
+      "label": "GPT-4o mini TTS",
+      "unit": "tts_tokens",
+      "rates": {
+        "input": "0.60",
+        "output": "12.00"
+      },
+      "currency": "USD",
+      "source_url": "https://developers.openai.com/api/docs/pricing.md",
+      "fetched_at": "2026-09-09T02:24:46.055601+00:00",
+      "notes": "文字输入 $0.60/M，音频输出 $12/M；按语音秒数预估 Token，不是固定秒价。"
+    },
+    {
+      "key": "deepseek:deepseek-v4-flash",
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash",
+      "label": "deepseek-v4-flash",
+      "unit": "tokens",
+      "rates": {
+        "cached": "0.014",
+        "input": "0.44",
+        "output": "1.32",
+        "cached_offpeak": "0.007",
+        "input_offpeak": "0.22",
+        "output_offpeak": "0.66"
+      },
+      "currency": "USD",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "fetched_at": "2026-09-09T02:24:46.057291+00:00",
+      "notes": "工作日 UTC 01–04、06–10 为高峰；预占按高峰价，实际用量参考按任务时间核算。"
+    },
+    {
+      "key": "deepseek:deepseek-v4-pro",
+      "provider": "deepseek",
+      "model": "deepseek-v4-pro",
+      "label": "deepseek-v4-pro",
+      "unit": "tokens",
+      "rates": {
+        "cached": "0.044",
+        "input": "1.32",
+        "output": "3.96",
+        "cached_offpeak": "0.022",
+        "input_offpeak": "0.66",
+        "output_offpeak": "1.98"
+      },
+      "currency": "USD",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "fetched_at": "2026-09-09T02:24:46.057331+00:00",
+      "notes": "工作日 UTC 01–04、06–10 为高峰；预占按高峰价，实际用量参考按任务时间核算。"
+    },
+    {
+      "key": "deepseek:deepseek-v4-flash-vision-exp",
+      "provider": "deepseek",
+      "model": "deepseek-v4-flash-vision-exp",
+      "label": "deepseek-v4-flash-vision-exp",
+      "unit": "tokens",
+      "rates": {
+        "cached": "0.014",
+        "input": "0.44",
+        "output": "1.32",
+        "cached_offpeak": "0.007",
+        "input_offpeak": "0.22",
+        "output_offpeak": "0.66"
+      },
+      "currency": "USD",
+      "source_url": "https://api-docs.deepseek.com/quick_start/pricing/",
+      "fetched_at": "2026-09-09T02:24:46.057356+00:00",
+      "notes": "工作日 UTC 01–04、06–10 为高峰；预占按高峰价，实际用量参考按任务时间核算。"
+    },
+    {
+      "key": "minimax:speech-2.8-hd",
+      "provider": "minimax",
+      "model": "speech-2.8-hd",
+      "label": "MiniMax Speech 2.8 HD",
+      "unit": "1000_characters",
+      "rates": {
+        "per_1000": "0.35"
+      },
+      "currency": "CNY",
+      "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo.md",
+      "fetched_at": "2026-09-09T02:24:46.057694+00:00",
+      "notes": "官方 ¥3.50/万字符，已自动换算为千字符。"
+    },
+    {
+      "key": "minimax:speech-2.8-turbo",
+      "provider": "minimax",
+      "model": "speech-2.8-turbo",
+      "label": "MiniMax Speech 2.8 Turbo",
+      "unit": "1000_characters",
+      "rates": {
+        "per_1000": "0.20"
+      },
+      "currency": "CNY",
+      "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo.md",
+      "fetched_at": "2026-09-09T02:24:46.057732+00:00",
+      "notes": "官方 ¥2.00/万字符。"
+    },
+    {
+      "key": "minimax:MiniMax-Hailuo-2.3-Fast",
+      "provider": "minimax",
+      "model": "MiniMax-Hailuo-2.3-Fast",
+      "label": "海螺 2.3 Fast",
+      "unit": "video_clip",
+      "rates": {
+        "768_6": "1.35",
+        "768_10": "2.25",
+        "1080_6": "2.31"
+      },
+      "currency": "CNY",
+      "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo.md",
+      "fetched_at": "2026-09-09T02:24:46.057820+00:00",
+      "notes": "原生 768P / 1080P 分时长计价；工作台 720P 输出由 768P 合成，不冒充原生 720P。"
+    },
+    {
+      "key": "minimax:MiniMax-Hailuo-2.3",
+      "provider": "minimax",
+      "model": "MiniMax-Hailuo-2.3",
+      "label": "海螺 2.3",
+      "unit": "video_clip",
+      "rates": {
+        "768_6": "2.00",
+        "768_10": "4.00",
+        "1080_6": "3.50"
+      },
+      "currency": "CNY",
+      "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo.md",
+      "fetched_at": "2026-09-09T02:24:46.057858+00:00"
+    },
+    {
+      "key": "runway:gen4.5",
+      "provider": "runway",
+      "model": "gen4.5",
+      "label": "Runway Gen-4.5",
+      "unit": "second",
+      "rates": {
+        "per_second": "0.12"
+      },
+      "currency": "USD",
+      "source_url": "https://docs.dev.runwayml.com/guides/pricing/",
+      "fetched_at": "2026-09-09T02:24:46.065471+00:00",
+      "notes": "12 credits/s，$0.01/credit；API 与网页订阅积分分开。"
+    },
+    {
+      "key": "runway:gen4_turbo",
+      "provider": "runway",
+      "model": "gen4_turbo",
+      "label": "Runway Gen-4 Turbo",
+      "unit": "second",
+      "rates": {
+        "per_second": "0.05"
+      },
+      "currency": "USD",
+      "source_url": "https://docs.dev.runwayml.com/guides/pricing/",
+      "fetched_at": "2026-09-09T02:24:46.065775+00:00",
+      "notes": "5 credits/s，$0.01/credit。"
+    },
+    {
+      "key": "eleven:music_v1",
+      "provider": "eleven",
+      "model": "music_v1",
+      "label": "Eleven Music",
+      "unit": "second",
+      "rates": {
+        "per_second": "0.0025"
+      },
+      "currency": "USD",
+      "source_url": "https://elevenlabs.io/pricing/api",
+      "fetched_at": "2026-09-09T02:24:46.095402+00:00",
+      "notes": "官方 $0.15/分钟，自动换算；具体账户套餐另计。"
+    },
+    {
+      "key": "minimax:image-01",
+      "provider": "minimax",
+      "model": "image-01",
+      "label": "MiniMax Image-01",
+      "unit": "image",
+      "currency": "CNY",
+      "rates": {
+        "per_image": "0.025"
+      },
+      "source_url": "https://platform.minimaxi.com/docs/guides/pricing-paygo.md",
+      "fetched_at": "2026-09-09T03:26:56.711765+00:00",
+      "notes": "官方文生图单张 ¥0.025；本条目暂不支持商品图编辑。"
+    }
+  ],
+  "fx": {
+    "rate": "6.710521784053728258997761323",
+    "date": "2026-09-08",
+    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml",
+    "fetched_at": "2026-09-09T02:24:46.095960+00:00"
+  },
+  "refresh_status": [],
+  "subscriptions": [
+    {
+      "name": "ChatGPT Plus",
+      "monthly_usd": "20",
+      "source_url": "https://learn.chatgpt.com/docs/pricing"
+    },
+    {
+      "name": "ChatGPT Pro 5x",
+      "monthly_usd": "100",
+      "source_url": "https://learn.chatgpt.com/docs/pricing"
+    },
+    {
+      "name": "ChatGPT Pro 20x",
+      "monthly_usd": "200",
+      "source_url": "https://learn.chatgpt.com/docs/pricing"
+    }
+  ]
+}
